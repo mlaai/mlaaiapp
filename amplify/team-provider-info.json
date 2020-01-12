@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mlaaiapp-dev-233707-authRole",
+            "UnauthRoleArn": "arn:aws:iam::888434997109:role/amplify-mlaaiapp-dev-233707-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::888434997109:role/amplify-mlaaiapp-dev-233707-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-mlaaiapp-dev-233707-deployment",
+            "UnauthRoleName": "amplify-mlaaiapp-dev-233707-unauthRole",
+            "StackName": "amplify-mlaaiapp-dev-233707",
+            "StackId": "arn:aws:cloudformation:us-east-1:888434997109:stack/amplify-mlaaiapp-dev-233707/33192820-34f5-11ea-a090-0aac80a39b9b",
+            "AmplifyAppId": "d10spk8anduyd"
+        },
+        "categories": {
+            "auth": {
+                "mlaaiappdaaf898d": {}
+            }
+        }
+    }
+}

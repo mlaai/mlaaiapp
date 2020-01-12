@@ -1,0 +1,20 @@
+{
+    "appName": "mlaaiapp",
+    "roleName": "pinpointLambdaRole219c95e1",
+    "cloudWatchPolicyName": "cloudWatchPolicy219c95e1",
+    "pinpointPolicyName": "pinpointPolicy219c95e1",
+    "authPolicyName": "pinpoint_amplify_219c95e1",
+    "unauthPolicyName": "pinpoint_amplify_219c95e1",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

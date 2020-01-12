@@ -1,0 +1,44 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "mlaaiapp5fc2cb0f",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            }
+        }
+    ],
+    "resourceName": "api0b3f2b66",
+    "apiName": "api0b3f2b66",
+    "functionArns": [
+        {
+            "lambdaFunction": "mlaaiapp5fc2cb0f"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-mlaaiapp-dev-233707-authRole",
+        "unAuthRoleName": "amplify-mlaaiapp-dev-233707-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "mlaaiapp5fc2cb0f",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
