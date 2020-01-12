@@ -76,5 +76,15 @@
 				}
 			]
 		}
+	},
+	"xr": {
+		"scene1": {
+			"service": "Sumerian",
+			"providerPlugin": "awscloudformation"
+		},
+		"Mlaai1": {
+			"service": "Sumerian",
+			"providerPlugin": "awscloudformation"
+		}
 	}
 }

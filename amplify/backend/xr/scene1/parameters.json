@@ -1,0 +1,10 @@
+{
+    "AuthRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "UnauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "AuthPolicyName": "sumerian-auth-mlaaiappwBAM9",
+    "UnauthPolicyName": "sumerian-unauth-mlaaiappwBAM9"
+}
