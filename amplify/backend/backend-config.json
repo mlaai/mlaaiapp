@@ -85,6 +85,14 @@
 		"Mlaai1": {
 			"service": "Sumerian",
 			"providerPlugin": "awscloudformation"
+		},
+		"Mlaai": {
+			"service": "Sumerian",
+			"providerPlugin": "awscloudformation"
+		},
+		"MlaaiIntro": {
+			"service": "Sumerian",
+			"providerPlugin": "awscloudformation"
 		}
 	}
 }
