@@ -94,5 +94,12 @@
 			"service": "Sumerian",
 			"providerPlugin": "awscloudformation"
 		}
+	},
+	"predictions": {
+		"speechGenerator63262800": {
+			"providerPlugin": "awscloudformation",
+			"service": "Polly",
+			"convertType": "speechGenerator"
+		}
 	}
 }
